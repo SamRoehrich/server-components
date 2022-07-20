@@ -1,19 +1,21 @@
 {
-  "name": "server-components",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
-  }
+	"name": "server-components",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "^12.2.3-canary.10",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-fetch": "0.0.0-experimental-0cc724c77-20211125",
+		"sync-fetch": "^0.4.1"
+	},
+	"devDependencies": {
+		"eslint": "8.8.0",
+		"eslint-config-next": "12.0.10"
+	}
 }
